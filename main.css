@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #4e5c5c;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 8px solid #5f6e6e;
+    text-transform: uppercase;
+    height: 90px;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    margin-top: 16px;
+}
+
+.buttonHeader {
+    display: flex;
+    gap: 8px;
+    margin-top: auto;
+}
+
+header button {
+    background-color: #5f6e6e;
+    border: none;
+    padding: 6px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+form {
+    background-color: #5f6e6e;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+form h2 {
+    margin-bottom: 8px;
+}
+
+form input, button {
+    padding: 8px;
+    text-align: center;
+}
+
+form button {
+    margin: 4px;
+    background-color: #0aaf41;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#botaoCancelar {
+    background-color: rgb(247, 64, 64);
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    width: 300px;
+    background-color: #5f6e6e;
+    font-size: 20px;
+    font-weight: 600;
+    border: solid 1px #1a202c;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul li h3, p {
+    margin: 0;
+    cursor: pointer;
+}
+
+ul li h3:hover {
+    color: #4d4949;
+}
+
+ul li p:hover {
+    color: #4d4949;
+}
+
+body {
+    background-color: #879999;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #4e5c5c;
+    font-weight: bold;
+    padding: 16px 0;
+    padding-left: 16px;
+    margin-top: auto;
+    width: 100%;
+}
+
+@media (max-width: 480px) {
+
+}
+
+.tarefa-concluida {
+    text-decoration: line-through;
+    text-decoration-color: rgb(247, 64, 64);
+}
+
+
